@@ -1,0 +1,191 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  /* Navigation Bar */
+  nav {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+    background-color: #444;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Blog Page Styles */
+  .blog-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1rem;
+  }
+  
+  .blog-post {
+    background: white;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .blog-post img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .blog-post h2 {
+    margin: 0.5rem 0;
+  }
+  
+  .blog-post p {
+    color: #666;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  /* Login Page Styles */
+  .login-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: auto;
+    margin-top: 10%;
+  }
+  
+  .login-container h2 {
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .login-container input {
+    width: 100%;
+    padding: 0.8rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .login-container button {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .login-container button:hover {
+    background-color: #444;
+  }
+  
+  .login-container a {
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .login-container a:hover {
+    text-decoration: underline;
+  }
+
+  .contact-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-container h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .contact-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-container input,
+  .contact-container textarea {
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .contact-container button {
+    padding: 0.8rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .contact-container button:hover {
+    background-color: #444;
+  }
+  
+  /* About Page Styles */
+  .about-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-container h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .about-container h3 {
+    margin-top: 1.5rem;
+    color: #333;
+  }
+  
+  .about-container p {
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 1rem;
+  }
+  
+  .about-container img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 1.5rem;
+  }
